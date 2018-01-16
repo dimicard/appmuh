@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Missão da Última Hora | App :: home</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=no">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Travel Hunt App Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android  Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<meta charset utf="8">
+<!--font-awsome-css-->
+<link rel="stylesheet" href="css/font-awesome.min.css"> 
+<!--bootstrap-->
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<!--custom css-->
+<link href="css/style.css" rel="stylesheet" type="text/css"/> 
+    <style>
+       @-ms-viewport { width: 100vw ; min-zoom: 100% ; zoom: 100% ; }          @viewport { width: 100vw ; min-zoom: 100% zoom: 100% ; }
+        @-ms-viewport { user-zoom: fixed ; min-zoom: 100% ; }                   @viewport { user-zoom: fixed ; min-zoom: 100% ; }
+   </style>
+</head>
+
+<body>
+ 
+<div class="body-back">
+<div class="masthead pdng-stn1">
+<div class="phone-box wrap push" id="home">
+<div class="menu-notify">
+<div class="profile-left">
+<h5 class="pro-link"><a href="index.html">Home</a></h5>
+</div>
+<div class="clearfix"></div>
+</div> 
+<!-- banner -->
+<div class="details-grid">
+<div class="details-shade">
+<div class="details-right">
+<img src="images/logo.png" alt=" ">
+<h3>Bem Vindos</h3>
+<h4>Ao App Missão da Última Hora</h4>
+</div>
+</div>
+</div>
+<div class="w3agile banner-bottom">
+<ul>
+<li><a href="news.html" class="hvr-radial-out"><i class="fa fa-newspaper-o" aria-hidden="true"></i></a><h6>Notícias</h6></li>
+<li><a href="fotos.html" class="hvr-radial-out"><i class="fa fa-picture-o" aria-hidden="true"></i></a><h6>Fotos</h6></li>
+<li><a href="radio.html" class="hvr-radial-out"><i class="fa fa-play-circle" aria-hidden="true"></i></a><h6>Rádio</h6></li>
+<li><a href="tv.html" class="hvr-radial-out"><i class="fa fa-television" aria-hidden="true"></i></a><h6>TV</h6></li>
+</ul>
+</div>
+<!-- //banner -->
+<!--/welcome-->
+<div class="w3agile welcome" data-ver="1" id="lista2"> 
+ 
+<p>Conectar a <b>internet</b> para usar o app.</p>
+ <span class="uib_shim"></span>
+</div>
+<!--//welcome-->
+<!--/footer-->
+
+<div class="w3agile agileinfo_copy_right">
+<div class="agileinfo_copy_right_left">
+<p>© 2017 Missão da Última Hora. All rights reserved | Design by <a href="http://webconstt.com/">WebConstt.com</a></p>
+</div>
+<div class="clearfix"> </div>
+</div>
+<!--/footer-->
+</div>
+</div>
+</div>
+  <script>
+               $( document ).ready(function() {
+                              var $server;
+                              $server = 'http://missaodaultimahora.com.br/app/';
+                        
+                             function Lista(){
+                                    $.ajax({
+                                        type: "get",
+                                        dataType  : 'html',
+                                        url: $server+"/newini.php",
+                                        data: "acao=lista2",
+                                        success: function(data) {
+                                             $('#lista2').html(data);
+                                        }
+                                    });
+                              }
+                              Lista();
+                           });
+          </script>
+<script>
+   $.ui.useOSThemes=false;
+</script>
+</body>
+</html>
