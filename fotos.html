@@ -2,23 +2,27 @@
 <html>
 <head>
 <title>Missão da Última Hora | App :: home</title>
-<meta http-equiv="Content-type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=no">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Travel Hunt App Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android  Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-<meta charset utf="8">
-<!--font-awsome-css-->
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=no">
+          <style>
+       @-ms-viewport { width: 100vw ; min-zoom: 100% ; zoom: 100% ; }          @viewport { width: 100vw ; min-zoom: 100% zoom: 100% ; }
+        @-ms-viewport { user-zoom: fixed ; min-zoom: 100% ; }                   @viewport { user-zoom: fixed ; min-zoom: 100% ; }
+   </style>
+   <!--font-awsome-css-->
 <link rel="stylesheet" href="css/font-awesome.min.css"> 
 <!--bootstrap-->
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 <!--custom css-->
 <link href="css/style.css" rel="stylesheet" type="text/css"/> 
-    <style>
-       @-ms-viewport { width: 100vw ; min-zoom: 100% ; zoom: 100% ; }          @viewport { width: 100vw ; min-zoom: 100% zoom: 100% ; }
-        @-ms-viewport { user-zoom: fixed ; min-zoom: 100% ; }                   @viewport { user-zoom: fixed ; min-zoom: 100% ; }
-   </style>
-</head>
+   
+ <script src="cordova.js" id="xdkJScordova_"></script>
+          <script src="js/app.js"></script>
+          <script src="js/init-app.js"></script>
+          <script src="xdk/init-dev.js"></script>
+          <script type="application/javascript" src="lib/jquery.min.js"></script>
 
+		  </head>
 <body>
 <div class="body-back">
 <div class="masthead pdng-stn1">
@@ -33,7 +37,7 @@
 <div class="details-grid fotos">
 <div class="details-shade">
 <div class="details-right">
-<img src="images/logo.png" alt=" ">
+<img src="images/logo0.png" alt=" ">
 <h3>Missão da Última Hora</h3>
 </div>
 </div>
@@ -48,64 +52,18 @@
 </div>
 <!-- //banner -->
 <!-- portfolio --> 
-<div id="portfolio" class="portfolio w3agile">
-		<div class="container">
-			<h3 class="w3ls-title">Galeria de Fotos</h3>
-			<div class="gallery_gds">
-				<ul class="simplefilter">
-					<li class="active" data-filter="all">All</li>
-					<li data-filter="1">Category 1</li>
-					<li data-filter="2">Category 2</li>
-					<li data-filter="3">Category 3</li>
-				</ul>
-				<div class="filtr-container">
-					<div class="col-md-4 filtr-item" data-category="1, 4" data-sort="Busy streets">
-						<div class="agileits-img">
-							<a href="images/d1.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
-								<img class="img-responsive img-style row2" src="images/d1.jpg" alt=""  /> 
-							</a> 
-						</div>
-					</div>
-					<div class="col-md-4 filtr-item" data-category="2, 3" data-sort="Luminous night">
-						<div class="agileits-img">
-							<a href="images/d2.jpg" class="swipebox" title="Duis maximus tortor diam, ac lobortis justo rutrum quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non purus fermentum, eleifend velit non">
-								<img src="images/d2.jpg" alt="" class="img-responsive img-style row2" />
-							</a>	
-						</div>
-					</div>
-					<div class="col-md-4 filtr-item" data-category="1, 4" data-sort="City wonders">
-						<div class="agileits-img">
-							<a href="images/d3.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
-								<img src="images/d3.jpg" alt="" class="img-responsive img-style row2" />
-							</a>	
-						</div>
-					</div>
-					<div class="col-md-4 filtr-item" data-category="3, 4" data-sort="Industrial site">
-						<div class="agileits-img">
-							<a href="images/d4.jpg" class="swipebox" title="Praesent non purus fermentum, eleifend velit non Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis.">
-								<img src="images/d4.jpg" alt="" class="img-responsive img-style row2" />
-							</a>	
-						</div>
-					</div>
-					<div class="col-md-4 filtr-item" data-category="3" data-sort="In production">
-						<div class="agileits-img">
-							<a href="images/d5.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
-								<img src="images/d5.jpg" alt="" class="img-responsive img-style row2" />
-							</a>	
-						</div>
-					</div>
-					<div class="col-md-4 filtr-item" data-category="2, 4" data-sort="Peaceful lake">
-						<div class="agileits-img">
-							<a href="images/d6.jpg" class="swipebox" title="Duis maximus tortor diam, ac lobortis justo rutrum quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non purus fermentum, eleifend velit non">
-								<img src="images/d6.jpg" alt="" class="img-responsive img-style row2" />
-</a>	
+<div id="portfolio" class="portfolio w3agile" >
+<div class="container">
+<h3 class="w3ls-title">Galeria de Fotos</h3><br/>
+<div class="hotel-rooms" data-ver="1" id="lista4">
+ <p>Conectar a <b>internet</b> para usar o app.</p>
+ <span class="uib_shim"></span>
 </div>
+ 
+<span class="uib_shim"></span>
+    <div class="clearfix"></div>
+	</div>
 </div>
-<div class="clearfix"> </div>
-</div>
-</div>
-</div>  
-</div>    
 <!-- //portfolio-->
 <!--/footer-->
 
@@ -118,33 +76,28 @@
 <!--/footer-->
 </div>
 </div>
-	<script src="jS/jquery.filterizr.js"></script>  
-	<script src="js/controls.js"></script>
-	<!-- Kick off Filterizr -->
-	<script type="text/javascript">
-		$(function() {
-			//Initialize filterizr with default options
-			$('.filtr-container').filterizr();
-		});
-	</script>	
-	<!-- swipe box js -->
-	<script src="js/jquery.swipebox.min.js"></script> 
-	<script type="text/javascript">
-			jQuery(function($) {
-				$(".swipebox").swipebox();
-			});
-	</script>
-	<!-- //swipe box js --> 
-	<script src="js/jquery.adipoli.min.js" type="text/javascript"></script>
-	<script type="text/javascript"> 
-		$(function(){ 
-			$('.row2').adipoli({
-				'startEffect' : 'overlay',
-				'hoverEffect' : 'sliceDown'
-			}); 
-		});
-		
-	</script>
-<script src="js/scripts.js"></script>
+</div>
+<script>
+               $( document ).ready(function() {
+                              var $server;
+                              $server = 'http://missaodaultimahora.com.br/app/';
+                        
+                             function Lista(){
+                                    $.ajax({
+                                        type: "get",
+                                        dataType  : 'html',
+                                        url: $server+"/newini4.php",
+                                        data: "acao=lista4",
+                                        success: function(data) {
+                                             $('#lista4').html(data);
+                                        }
+                                    });
+                              }
+                              Lista();
+                           });
+          </script>
+<script>
+   $.ui.useOSThemes=false;
+</script>
 </body>
 </html>

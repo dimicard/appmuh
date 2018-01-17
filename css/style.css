@@ -10,6 +10,7 @@ background: #043d67;
 	margin:0;
 	padding:0;
 }
+
 body p{
   font-family: 'Open Sans', sans-serif;
   
@@ -957,14 +958,12 @@ h2.typoh2{
 }
 /*-- //short-codes --*/
 /*--/hotel-single--*/
-.hotel-left-one img {
-    width: 100%;
-	   margin-top: 10px;
+.hotel-left img {
+    display:none;
 }
-.hotel-left-one p {
-    line-height: 1.9em;
-    color: #777;
-    font-size: 0.9em;
+.hotel-left p {
+  word-wrap: break-word;
+
 }
 .hotel-left-two a, .hotel-left a {
     text-transform: uppercase;
